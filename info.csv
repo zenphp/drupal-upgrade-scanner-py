@@ -1,0 +1,182 @@
+Package,Name
+Other,ckeditor
+Core,color
+"Web services",hal
+"Acquia ContentHub",acquia_contenthub
+"Acquia ContentHub",acquia_contenthub_curation
+"Acquia ContentHub",acquia_contenthub_dashboard
+"Acquia ContentHub",acquia_contenthub_publisher
+"Acquia ContentHub (Experimental)",acquia_contenthub_s3
+"Acquia ContentHub",acquia_contenthub_subscriber
+"Purge - reverse proxies & CDNs",acquia_purge
+"Acquia Cloud Site Factory",acsf
+"Acquia Cloud Site Factory",acsf_duplication
+"Acquia Cloud Site Factory",acsf_theme
+"Acquia Cloud Site Factory",acsf_variables
+Administration,admin_toolbar
+Administration,admin_toolbar_tools
+Translation,admin_user_language
+AMP,amp
+AMP,amp_toolbar
+Media,img_aspect_ratio_validation
+Other,autologout
+Views,better_exposed_filters
+Blazy,blazy
+Blazy,blazy_ui
+Block,block_content_permissions
+"Changed Fields API",changed_fields
+"User interface",chosen
+"User interface",chosen_lib
+CKEditor,ckeditor_bidi
+Anti-virus,clamav
+Other,components
+Config,config_filter
+Config,config_ignore
+Development,config_inspector
+Other,config_override_warn
+Config,config_split
+Theming,configurable_theme_libraries
+Content,content_lock
+Media,crop
+"Chaos tool suite",ctools
+"Chaos tool suite (Experimental)",ctools_block
+"Web services",default_content
+Other,depcalc
+Development,devel
+Development,devel_generate
+Development,devel_entity_updates
+Development,devel_kint_extras
+Other,diff
+Other,disable_html5_validation
+Elasticsearch,elasticsearch_connector
+Elasticsearch,elasticsearch_connector_views
+Other,embed
+Media,entity_browser
+Media,entity_browser_entity_form
+Other,entity_clone
+Filters,entity_embed
+"Field types",entity_reference_revisions
+Entityqueue,entityqueue
+Development,environment_indicator
+"Facebook Instant Articles",fb_instant_articles
+"Facebook Instant Articles",fb_instant_articles_views
+Fields,field_group
+"File metadata",file_mdm
+"File metadata",file_mdm_exif
+"File metadata",file_mdm_font
+Media,flush_single_image
+Media,focal_point
+Development,getjwtonlogin
+Statistics,google_analytics
+Statistics,google_analytics_reports
+Statistics,google_analytics_reports_api
+Drupal,hook_post_action
+Media,image_effects
+Performance,image_style_warmer
+Media,imagemagick
+Fields,inline_entity_form
+"jQuery UI",jquery_ui
+"jQuery UI",jquery_ui_datepicker
+"jQuery UI",jquery_ui_draggable
+"jQuery UI",jquery_ui_droppable
+"jQuery UI",jquery_ui_effects
+"jQuery UI",jquery_ui_slider
+"jQuery UI",jquery_ui_touch_punch
+"Web services",jsonapi_extras
+Other,jsonapi_resources
+Other,jsonapi_search_api
+"Web services",jwt
+"Web services",jwt_auth_consumer
+"Web services",jwt_auth_issuer
+Security,key
+Other,masquerade
+Fields,maxlength
+Media,media_entity_browser
+"Performance and scalability",memcache
+"Performance and scalability",memcache_admin
+Menu,menu_item_extras
+SEO,metatag
+SEO,metatag_facebook
+SEO,metatag_google_plus
+SEO,metatag_mobile
+SEO,metatag_open_graph
+SEO,metatag_pinterest
+SEO,metatag_twitter_cards
+SEO,metatag_verification
+SEO,metatag_views
+Fields,multiple_fields_remove_button
+"Field types",multiselect
+Other,node_read_time
+Other,node_title_help_text
+"Field types",office_hours
+OneSignal,onesignal
+OpenAPI,openapi
+"Web Services",openapi_jsonapi
+OpenAPI,openapi_ui
+OpenAPI,openapi_ui_swagger
+Permissions,override_node_options
+Layout,panelizer
+Panels,panels
+Panels,panels_ipe
+Paragraphs,paragraphs
+Other,pathauto
+PDB,pdb
+PDB,pdb_vue
+Media,photoswipe
+Other,podcast
+Other,poll
+Purge,purge_drush
+"Purge - queuers",purge_queuer_coretags
+Purge,purge_ui
+Purge,purge
+Purge,purge_queues
+Administration,readonlymode
+Other,redirect
+Other,redirect_after_logout
+Custom,rest_password
+"Web services",restui
+Permissions,role_delegation
+Other,s3fs
+Other,scheduler
+Other,scheduler_content_moderation_integration
+SEO,schema_article
+SEO,schema_metatag
+"Web services",schemata
+"Web services",schemata_json_schema
+Search,search_api
+Other,shorthand
+Slick,slick
+Social,social_api
+Social,social_auth
+Social,social_auth_apple
+Social,social_auth_decoupled
+Social,social_auth_facebook
+Social,social_auth_facebook_api
+Social,social_auth_google
+Social,social_auth_google_api
+Other,sophron
+"User Interface",switch_page_theme
+Other,term_reference_fancytree
+Other,token
+Other,twig_field_value
+Other,twig_tweak
+Administration,upgrade_status
+Filters,url_embed
+"User management",user_expire
+Other,views_googlenews
+Views,views_infinite_scroll
+Views,views_rss_core
+Views,views_rss_format
+Views,views_rss
+Views,views_rss_media
+Other,warmer
+CKEditor,ckeditor_scayt
+CKEditor,ckeditor_wsc
+Elasticsearch,elasticsearch_aws_connector
+Statistics,event_log_track
+Statistics,event_log_track_auth
+Statistics,event_log_track_config
+Statistics,event_log_track_entity
+Statistics,event_log_track_form
+Statistics,event_log_track_kaltura
+Other,taxonomy_revision_ui

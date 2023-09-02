@@ -1,0 +1,169 @@
+{
+  "patches": {
+    "drupal/aspect_ratio_validation": {
+      "error on successful validation": "https://www.drupal.org/files/issues/2022-11-15/3321614-validation-callback.patch"
+    },
+    "drupal/panels": {
+      "Strip client translation from javascript": "./patches/panels/strip_client_side_translation.patch",
+      "2992203 - Panels save button is not working": "https://www.drupal.org/files/issues/2019-03-19/2992203-4.patch",
+      "500 Error on IPE Editing / Placing": "https://www.drupal.org/files/issues/2018-12-12/500-Error-on-IPE-Editing-Placing-2919054-31.patch",
+      "2878684 - Use String.match to correlate regions when switching Layouts in Panels IPE": "https://www.drupal.org/files/issues/panels-ipe-2878684-3.patch"
+    },
+    "drupal/embed": {
+      "Unmanaged file upload icons with paths": "https://www.drupal.org/files/issues/2019-12-30/embed-allow-non-managed-button-icon-files--2824110-39_0.patch"
+    },
+    "drupal/default_content": {
+      "Allow manual importing": "https://www.drupal.org/files/issues/2018-10-26/default_content-allow_manual_imports-2640734-88.patch",
+      "Update existing content": "https://www.drupal.org/files/issues/2018-12-11/default_content-dont-reimport-2698425-109.patch"
+    },
+    "drupal/fb_instant_articles": {
+      "Adding Analytics": "patches/fb_instant_articles/adding-analytics-fb_instant_articles_mbn-2.2.patch"
+    },
+    "drupal/samlauth": {
+      "Add baseurl to php-saml settings": "patches/samlauth/baseurl.patch"
+    },
+    "drupal/url_embed": {
+      "Updating dialog label": "patches/url_embed/updating-url_embed-dialog-label.patch",
+      "Adding social media help text": "patches/url_embed/adding-url_embed-social-media-help-text.patch",
+      "Fix /tv/ links until oembed.com fixes their providers json": "patches/url_embed/instagram_tv_links.patch",
+      "Adding help text for VK embeds": "patches/url_embed/vk-help-text.patch",
+      "Facebook Instant Articles Embed": "https://www.drupal.org/files/issues/2020-08-11/facebook_instant_articles-3164599-4.patch",
+      "Add csrf Token to Embed URL Preview requests": "https://git.drupalcode.org/project/url_embed/-/merge_requests/5.diff"
+    },
+    "drupal/core": {
+      "Contextual filter default values for datetime fields": "https://www.drupal.org/files/issues/2023-03-29/2325899-169_reroll-9.5-189.patch",
+      "States not affecting managed_files elements": "https://www.drupal.org/files/issues/2019-09-03/states_not_affecting-2847425-39.patch",
+      "Fix script parsing in html filter with embedded html": "https://www.drupal.org/files/issues/2019-09-06/fix_script_parsing_2822525-17.patch",
+      "ContextAwarePluginAssignmentTrait allows null label causing form error": "patches/core/contextawareness.patch",
+      "Views exposed filters don't combine with contextual filters when using exposed form in block": "patches/core/views-exposed-form-block-args-2821962-8.7.10-notest.patch",
+      "Make saner default for translation page filter": "patches/core/locale-saner-default.patch",
+      "Call to a member function setSyncing()": "https://www.drupal.org/files/issues/2020-02-07/protect_against_invalid_ids_in_import_delete-3051453-5.patch",
+      "Fix missing scrollbar in ckeditor.": "patches/core/ckeditor-missing-scrollbar-fix.patch",
+      "Drupal alter's svg fill path's with base url": "patches/core/2362643-svg-fix.patch",
+      "Add token support for site logo + favicon": "patches/core/tokens_support_for_logo_and_favicon.patch",
+      "Replace func_get_args with variable-length argument in FormBuilder": "patches/core/3236391-replace-funcgetargs.patch",
+      "Verify that the configured service exists before calling it in CacheFactory": "https://www.drupal.org/files/issues/2020-05-04/2429321-9.1-75.patch",
+      "Ajax views progress type is hardcoded as fullscreen": "https://www.drupal.org/files/issues/2021-05-11/ajax_view_progress-3006342-16.patch",
+      "Cannot use relationship for rendered entity on Views - 2457999": "https://www.drupal.org/files/issues/2021-05-13/9.2.x-2457999-267-views-relationship-rendered-entity.patch",
+      "paramconverter.latest_revision on Drupal 9 upgrade": "./patches/core/param-converter-adjustment.patch",
+      "Views exposed filter form validation error patch": "./patches/core/views-exposed-form-validation.patch",
+      "Admin toolbar should always be rendered in the admin language (if set)": "https://www.drupal.org/files/issues/2023-03-09/2313309-162_0.patch",
+      "Allow AJAX to use GET requests.": "https://www.drupal.org/files/issues/2023-03-30/956186-174-reroll-95-185.patch",
+      "Add views render caching on views ajax requests. Local patch after #956186": "patches/core/2500313-92-after-956186-reroll.patch",
+      "text_summary() should output valid HTML and Unicode text, and not count markup characters as part of the text length": "./patches/core/text_summary-221257.patch",
+      "Prevent image style flush on image style update": "./patches/core/image-style-remove-flush-on-update.patch",
+      "ValidReferenceConstraintValidator should not try to enforce data integrity on pre-existing references 2973863": "https://www.drupal.org/files/issues/2018-11-04/2973863-24.patch",
+      "Views filter cannot access offset of type": "https://www.drupal.org/files/issues/2022-08-23/2825860-116.patch",
+      "AccessAwareRouter does not respect HTTP method": "https://www.drupal.org/files/issues/2022-02-01/2706241-67.patch",
+      "User created via /user/register?_format=json gets blocked": "https://www.drupal.org/files/issues/2022-04-05/3055807-44-D9.patch",
+      "Conditional required state is not displaying asterisk": "https://www.drupal.org/files/issues/2023-01-18/2912092-58.patch",
+      "Do not bypass route access with 'link to any page' permissions for menu links": "https://git.drupalcode.org/project/drupal/-/merge_requests/3118.diff",
+      "Cacheable Ajax response": "https://www.drupal.org/files/issues/2022-06-17/2701085-43.patch"
+    },
+    "drupal/content_lock": {
+      "Adding new class to the unlock button": "./patches/content_lock/unlock-button-class.patch",
+      "Fixing caching invalidation issue": "https://www.drupal.org/files/issues/content_lock-caching-invalidation-2919019-3.patch",
+      "Disable buttons for referenced entities when content is locked": "https://www.drupal.org/files/issues/2020-04-30/content_lock-buttons-referenced-entities-3132589-3.patch",
+      "Delete user and their locked content if user has permission": "https://git.drupalcode.org/project/content_lock/-/merge_requests/8.diff"
+    },
+    "drupal/multiselect": {
+      "Form API Multiselect field does not store selected values": "./patches/multiselect/fixing-multiselect-input-error.patch",
+      "Form API AJAX submit not work": "https://www.drupal.org/files/issues/multiselect-ajax-support-2123241-2.patch"
+    },
+    "drupal/focal_point": {
+      "Focal point will not take in effect if others module changed URI while saving image entity at the first time": "https://www.drupal.org/files/issues/2019-03-22/focal-point-does-not-save-at-the-first-time-3042259-4.patch"
+    },
+    "drupal/metatag": {
+      "Allow parent config to override empty values of more specific config": "https://www.drupal.org/files/issues/2019-11-19/metatag-parent_overrides-8-2044621-45.patch"
+    },
+    "drupal/web_push_notification": {
+      "Cannot install module": "https://www.drupal.org/files/issues/2019-08-02/entitystorage-3071873-8.patch"
+    },
+    "drupal/purge": {
+      "Port purge_drush commands to Drush 9": "https://www.drupal.org/files/issues/2019-03-11/2921309-30.patch"
+    },
+    "drupal/switch_page_theme": {
+      "Suppress the warning thrown when a laguage index is not available": "./patches/switch_page_theme/suppress_language_index_warning.patch"
+    },
+    "drupal/ctools": {
+      "Ctools block field being empty causes page to Error": "https://www.drupal.org/files/issues/2018-11-09/ctools-ctools_block_empty_field_error-2966909.patch"
+    },
+    "drupal/imagemagick": {
+      "imagemagick/issues/3123016 - Fix infinite loop when source file missing": "https://www.drupal.org/files/issues/2020-03-27/fix-infinite-loop-3123016-2.patch"
+    },
+    "drupal/imageapi_optimize_binaries": {
+      "Preserve metadata when using pngcrush": "./patches/imageapi_optimize_binaries/pngcrush-preserve-metadata.patch"
+    },
+    "drupal/google_analytics_reports": {
+      "$this keyword used in static context": "./patches/google_analytics_reports/remove-static-context-where-this-is-used.patch"
+    },
+    "drupal/jsonapi_extras": {
+      "JSONAPI (Core) 8.8x breaks enhancers on relationships": "https://www.drupal.org/files/issues/2020-01-15/fix_broken_relationship_enhancers-3103726-10.patch"
+    },
+    "drupal/jsonapi_resources": {
+      "Include parameter doesn't work with different type of entities": "https://www.drupal.org/files/issues/2020-09-24/fix-include-3172884-2.patch"
+    },
+    "drupal/panelizer": {
+      "2778565 - Multilingual support for Panelizer": "https://www.drupal.org/files/issues/2020-03-23/2778565-47.patch",
+      "IPE support revisions": "https://www.drupal.org/files/issues/2021-01-14/panelizer-moderation-2925942-18-lighting.patch"
+    },
+    "drupal/entity_embed": {
+      "Array to string conversion for Media Image": "https://www.drupal.org/files/issues/2019-10-18/entity-embed-array-to-string--3069448-19.patch"
+    },
+    "drupal/acquia_contenthub": {
+      "Remove exception for missing parent terms as they are added later": "./patches/acquia_contenthub/acquia_contenthub_publisher.remove_parent_check-reroll.patch",
+      "Add view permission to contenthub curation": "./patches/acquia_contenthub/acquia_contenthub_curation.add_permission.patch",
+      "Delete Webhook without assigned filters - 2.30": "./patches/acquia_contenthub/webhook_empty_filters-2.30.patch",
+      "Fix PHP error on Status Page": "https://git.drupalcode.org/project/acquia_contenthub/-/merge_requests/16.diff",
+      "Allow local copies of s3 files to take precedence": "./patches/acquia_contenthub/force-s3-locator-to-use-local.patch"
+    },
+    "drupal/readonlymode": {
+      "Fatal error when running module": "https://www.drupal.org/files/issues/2020-12-23/readonlymode-string_not_array-3115119-9.patch"
+    },
+    "drupal/pdb": {
+      "Array and string offset access syntax with curly braces is no longer supported": "https://www.drupal.org/files/issues/2021-07-20/pdb-depreciation_warning-3224572-02.patch"
+    },
+    "drupal/views_infinite_scroll": {
+      "Automatic hidden element": "./patches/views_infinite_scroll/new-automatic-hidden-element_v2.0.x.patch"
+    },
+    "drupal/components": {
+      "Template is not defined error on node edit / admin pages": "https://www.drupal.org/files/issues/2021-06-24/DRUP86-template_not_defined.patch"
+    },
+    "drupal/acsf": {
+      "Adds the drush.services.yml declaration in the composer.json files": "./patches/acsf/acsf_drush-services-addition.patch"
+    },
+    "drupal/entity_clone": {
+      "Only display clone operation to users with correct permissions": "https://www.drupal.org/files/issues/2022-01-11/entity_clone-access-permissions-3067006-13.patch"
+    },
+    "drupal/pathauto": {
+      "2986375 Special spaces (&nbsp;) not replaced like normal space, but encoded in URL": "https://git.drupalcode.org/project/pathauto/-/merge_requests/18.diff"
+    },
+    "drupal/config_ignore": {
+      "Support for export filtering": "https://www.drupal.org/files/issues/2021-08-18/config_ignore_2857247-75.patch"
+    },
+    "drupal/amp": {
+      "Add support for amp-iframe embedded in body": "https://git.drupalcode.org/project/amp/-/merge_requests/11.diff"
+    },
+    "drupal/photoswipe": {
+      "3302728: Do not assume package.json file will be kept in library directory in order to get library version.": "https://git.drupalcode.org/project/photoswipe/-/merge_requests/57.diff"
+    },
+    "drupal/social_auth": {
+      "Class Drupal\\social_auth\\Event\\UserFieldsEvent extends deprecated": "https://www.drupal.org/files/issues/2020-08-10/social_auth-event_deprecated-3164350-2-8.x.patch",
+      "New user should be validated before save - 3059152": "https://git.drupalcode.org/project/social_auth/-/merge_requests/13.diff"
+    },
+    "drupal/rest_password": {
+      "Local patch - Custom Expiration for tempstore + Dependency Injection + Numeric Code": "./patches/rest_password/rest_password-custom_expiration_token_type.patch",
+      "Move translation to the right interface": "https://www.drupal.org/files/issues/2023-01-30/rest_password-config-translation-3070889-6.patch"
+    },
+    "drupal/node_read_time": {
+      "Include field in JSON:API": "https://git.drupalcode.org/project/node_read_time/-/merge_requests/3.diff"
+    },
+    "drupal/image_style_warmer": {
+      "Skip warmer if file does not exist": "./patches/image_style_warmer/file_exists_check.patch"
+    },
+    "drupal/jwt": {
+      "Add configurable expiration time to jwt": "https://www.drupal.org/files/issues/2022-10-25/2782571-56.patch",
+      "Deprecated function: strpos(): Passing null to parameter #1": "https://www.drupal.org/files/issues/2022-07-22/3298726-3.patch"
+    }
+  }
+}
